@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Affiche</string>
+    <string name="text_under_img">Лучшая цена</string>
+    <string name="price_text">от 9 800 000 Р</string>
+    <string name="under_price_count">554 подходящие квартиры от 40,80 м2</string>
+    <string name="metro_name">Динамо</string>
+    <string name="pedestrian_time">10 мин</string>
+    <string name="place">Москва, Ленинградский проспект</string>
+</resources>
