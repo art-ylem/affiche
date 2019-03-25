@@ -19,7 +19,7 @@
         >
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"    >
+            android:layout_height="wrap_content"    >
 
             <ImageView
                 android:id="@+id/box_img"
@@ -29,6 +29,69 @@
                 card_view:layout_constraintTop_toTopOf="parent"
 
                 />
+
+            <ImageView
+                android:id="@+id/ic_more"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_more"
+                card_view:layout_constraintTop_toTopOf="@id/box_img"
+                card_view:layout_constraintEnd_toEndOf="@id/box_img"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                />
+
+            <ImageView
+                android:id="@+id/ic_like"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_like"
+                card_view:layout_constraintTop_toTopOf="@id/box_img"
+                card_view:layout_constraintEnd_toEndOf="@id/box_img"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="60dp"
+                />
+            
+            <TextView
+                android:id="@+id/img_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/img_text1"
+                android:fontFamily="sans-serif"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                card_view:layout_constraintStart_toStartOf="@id/box_img"
+                card_view:layout_constraintBottom_toBottomOf="@id/box_img"
+                android:layout_marginBottom="45dp"
+                />
+            <TextView
+                android:id="@+id/img_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/img_text2"
+                android:fontFamily="sans-serif"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                card_view:layout_constraintStart_toStartOf="@id/box_img"
+                card_view:layout_constraintBottom_toBottomOf="@id/box_img"
+                android:layout_marginBottom="20dp"
+                />
+            <TextView
+                android:id="@+id/img_picture_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/img_pic_count"
+                android:fontFamily="sans-serif"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                card_view:layout_constraintEnd_toEndOf="@id/box_img"
+                card_view:layout_constraintBottom_toBottomOf="@id/box_img"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="10dp"
+                />
+
+
 
             <TextView
                 android:id="@+id/text_under_img"

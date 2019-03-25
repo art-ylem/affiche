@@ -7,4 +7,5 @@
     <color name="black">#000</color>
     <color name="back_orange">#ffcb7f</color>
     <color name="box_back">#fbecdc</color>
+    <color name="white">#fff</color>
 </resources>
