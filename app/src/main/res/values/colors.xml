@@ -8,4 +8,6 @@
     <color name="back_orange">#ffcb7f</color>
     <color name="box_back">#fbecdc</color>
     <color name="white">#fff</color>
+    <color name="background_gray_pro">#B19F8A</color>
+    <color name="common_border_color">#fff</color>
 </resources>
