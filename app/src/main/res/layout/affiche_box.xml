@@ -24,9 +24,10 @@
             <ImageView
                 android:id="@+id/box_img"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="300dp"
                 android:src="@drawable/box_img"
                 card_view:layout_constraintTop_toTopOf="parent"
+                android:scaleType="centerCrop"
 
                 />
 
